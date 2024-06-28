@@ -1,0 +1,162 @@
+/* Contact.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../bg.jpg'); /* Adjust the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+}
+
+.message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.message.success {
+    background-color: #4caf50;
+}
+
+.message.error {
+    background-color: #f44336;
+}
+
+.--text-center {
+    text-align: center;
+    color: #fff;
+}
+
+.--form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.--form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.--form-field {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.--form-field span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.--form-field input,
+.--form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.--large-textarea {
+    height: 150px; /* Set the height of the textarea */
+}
+
+.--center-button {
+    text-align: center; /* Center the button */
+}
+
+
+.--btn {
+    display: inline-block;
+    padding: 15px 30px; /* Larger padding for the button */
+    font-size: 16px; /* Increase font size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.--btn-primary {
+    background-color: #007bff;
+    justify-content: center;
+}
+
+.---btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.--card {
+    background: #0f0f0f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #0c0c0c;
+}
+
+.--flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.--dir-column {
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.--btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.--btn-primary {
+    background-color: #fff;
+    color: #141414;
+}
+
+.--btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Add border around the form */
+form.--form-control {
+    border: 2px solid #cbcfd3; /* or any color you prefer */
+    padding: 20px;
+    border-radius: 10px;
+}
